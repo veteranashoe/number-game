@@ -21,4 +21,3 @@ while c >= 0:
                             exit()
               c = c - 1
 
-afaefa
