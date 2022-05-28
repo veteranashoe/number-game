@@ -1,8 +1,8 @@
 import random
 n=int((random.randint(0,100)))
-print(n)
 
-print ("\nguess the correct random number \nyou have 7 total chances \n")
+print ("\nGuess the correct Random Number \nyou have 7 total chances \nThe Random Number is in between 1-100\n")
+
 c = 6
 
 while c >= 0:
@@ -17,7 +17,7 @@ while c >= 0:
                             print("Congrulations You Guessed the Right Number")
                             c = 0
               elif c == 0 :
-                            print("you lost the game")
+                            print("you lost the game. \nThe Number was " + str(n))
                             exit()
               c = c - 1
 
